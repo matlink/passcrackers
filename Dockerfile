@@ -1,7 +1,7 @@
 FROM ubuntu:bionic
 
-ENV POCL_VERSION v1.2
-ENV HC_VERSION v4.2.1
+ENV POCL_VERSION v1.3
+ENV HC_VERSION v5.1.0
 ENV JOHN_DIR /opt/bin/john
 
 RUN apt-get -qq update && \
